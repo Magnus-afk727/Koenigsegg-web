@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Todos los modelos de Koenigsegg, desde el CC8S hasta la actualidad.">
+  <title>Koenigsegg | Historia y Modelos</title>
+
+  <link rel="icon" type="image/png" href="img/koenigsegg-fahrzeughersteller-logo-1.webp">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+  <!-- ===================== HEADER / NAVEGACIÓN ===================== -->
+  <header class="site-header">
+    <a href="#inicio" class="logo">KOENIGSEGG</a>
+
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#modelos">Modelos</a></li>
+        <li><a href="#linea-tiempo">Línea de tiempo</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <h1>Koenigsegg</h1>
+        <p class="hero-subtitle">Hiperautos suecos desde 1994</p>
+        <a href="#modelos" class="btn">Ver todos los modelos</a>
+      </div>
+    </section>
+
+    <!-- ===================== HISTORIA ===================== -->
+    <section id="historia" class="section">
+      <h2>Nuestra historia</h2>
+
+      <div class="historia-grid">
+
+  <article class="historia-inicios">
+    <h3>Los inicios</h3>
+    <p>Koenigsegg es un fabricante sueco de hiperautos fundado en 1994 por Christian von Koenigsegg, 
+      quien a los 22 años buscaba crear el superdeportivo definitivo inspirado en la película Flåklypa Grand Prix.  
+      La empresa, con sede en Ängelholm, se caracteriza por su enfoque artesanal y la innovación tecnológica propia, 
+      como el sistema de suspensión Triplex y el motor V8 sobrealimentado.
+
+La marca comenzó con el prototipo CC en 1996 y lanzó su primer modelo de producción, el CC8S, 
+en 2002, que ostentaba el récord del motor más potente para un coche de serie.  A lo largo de los años, 
+Koenigsegg ha batido numerosos récords de velocidad y aceleración con modelos como el CCR, CCX, Agera RS y el actual Jesko, 
+consolidándose como una icono de la ingeniería automotriz de alto rendimiento.</p>
+  </article>
+
+  <article class="historia-innovacion">
+    <h3>Filosofía e innovación</h3>
+    <p>
+      <p>
+  La filosofía de Koenigsegg se basa en la innovación constante, la ligereza
+  estructural y el desarrollo de soluciones técnicas propias. Entre sus
+  aportes destacan el sistema Freevalve, la transmisión Light Speed Transmission
+  y el uso intensivo de materiales compuestos como la fibra de carbono.
+  Estas tecnologías permiten lograr altas prestaciones con una producción
+  limitada y un enfoque artesanal.
+  
+
+</p>
+    </p>
+  </article>
+
+  <figure class="historia-fundador">
+    <img
+      src="img/Christian-Von-Koenigsegg_KOENIGSEGG-AUTOMOTIVE (1).webp"
+      alt="Fundador de Koenigsegg"
+      loading="lazy"
+    >
+    <figcaption>Fundador de Koenigsegg.</figcaption>
+  </figure>
+
+</div>
+    </section>
+
+    <!-- ===================== MODELOS ===================== -->
+    <section id="modelos" class="section section-dark">
+      <h2>Todos los modelos</h2>
+
+      <!-- Filtros (opcional, se activan con JS) -->
+      <div class="filtros" role="group" aria-label="Filtrar modelos">
+        <button class="filtro active" data-filtro="todos">Todos</button>
+        <button class="filtro" data-filtro="cc">Serie CC</button>
+        <button class="filtro" data-filtro="agera">Serie Agera</button>
+        <button class="filtro" data-filtro="actual">Actuales</button>
+      </div>
+
+      <div class="modelos-grid">
+
+        <!-- ===== Plantilla de tarjeta: copia y pega una por cada modelo ===== -->
+        <article class="modelo-card" data-serie="cc" id="cc8s">
+          <img src="img/Koenigsegg-CC8S-1-750x441.webp" loading="lazy">
+          <div class="modelo-info">
+            <h3>CC8S</h3>
+            <p class="modelo-anio">2002</p>
+            <p class="modelo-desc"><!-- Descripción breve --></p>
+
+            <dl class="ficha-tecnica">
+              <dt>Motor</dt>       <dd><!-- --></dd>
+              <dt>Potencia</dt>    <dd><!-- --></dd>
+              <dt>Velocidad máx.</dt><dd><!-- --></dd>
+              <dt>0–100 km/h</dt>  <dd><!-- --></dd>
+              <dt>Producción</dt>  <dd><!-- --></dd>
+            </dl>
+
+              <a href="#detalle-cc8s" class="btn btn-small">Ver más</a>
+          </div>
+        </article>
+
+        <article class="modelo-card" data-serie="cc" id="ccr">
+          <img src="img/Koenigsegg-CCR front shot.webp" loading="lazy">
+          <div class="modelo-info">
+            <h3>CCR</h3>
+            <p class="modelo-anio">2004</p>
+            <p class="modelo-desc"></p>
+
+
+            <dl class="ficha-tecnica">
+                            <dt>Motor</dt>       <dd><!-- --></dd>
+              <dt>Potencia</dt>    <dd><!-- --></dd>
+              <dt>Velocidad máx.</dt><dd><!-- --></dd>
+              <dt>0–100 km/h</dt>  <dd><!-- --></dd>
+              <dt>Producción</dt>  <dd><!-- --></dd>
+            </dl>
+            <a href="#detalle-ccr" class="btn btn-small">Ver más</a>
+          </div>
+        </article>
+
+        <article class="modelo-card" data-serie="cc" id="ccx">
+          <img src="img/2007-koenigsegg-ccx-8.jpg_q=50&fit=crop&w=825&dpr=1.webp" loading="lazy">
+          <div class="modelo-info">
+            <h3>CCX</h3>
+            <p class="modelo-anio">2006</p>
+            <p class="modelo-desc"></p>
+
+
+            <dl class="ficha-tecnica">
+                            <dt>Motor</dt>       <dd><!-- --></dd>
+              <dt>Potencia</dt>    <dd><!-- --></dd>
+              <dt>Velocidad máx.</dt><dd><!-- --></dd>
+              <dt>0–100 km/h</dt>  <dd><!-- --></dd>
+              <dt>Producción</dt>  <dd><!-- --></dd>
+            </dl>
+            <a href="#detalle-ccx" class="btn btn-small">Ver más</a>
+          </div>
+        </article>
+
+        <article class="modelo-card" data-serie="agera" id="agera">
+          <img src="img/wp3779919.webp" loading="lazy">
+          <div class="modelo-info">
+            <h3>Agera</h3>
+            <p class="modelo-anio">2010</p>
+            <p class="modelo-desc"></p>
+
+
+            <dl class="ficha-tecnica">
+                            <dt>Motor</dt>       <dd><!-- --></dd>
+              <dt>Potencia</dt>    <dd><!-- --></dd>
+              <dt>Velocidad máx.</dt><dd><!-- --></dd>
+              <dt>0–100 km/h</dt>  <dd><!-- --></dd>
+              <dt>Producción</dt>  <dd><!-- --></dd>
+            </dl>
+            <a href="#detalle-agera" class="btn btn-small">Ver más</a>
+          </div>
+        </article>
+      
+                <article class="modelo-card" data-serie="agera" id="one:1">
+          <img src="img/2014-Koenigsegg-Agera-One-1-006-1600.webp" loading="lazy">
+          <div class="modelo-info">
+            <h3>One:1</h3>
+            <p class="modelo-anio">2014</p>
+            <p class="modelo-desc"></p>
+
+
+            <dl class="ficha-tecnica">
+                            <dt>Motor</dt>       <dd><!-- --></dd>
+              <dt>Potencia</dt>    <dd><!-- --></dd>
+              <dt>Velocidad máx.</dt><dd><!-- --></dd>
+              <dt>0–100 km/h</dt>  <dd><!-- --></dd>
+              <dt>Producción</dt>  <dd><!-- --></dd>
+            </dl>
+           <a href="#detalle-one1" class="btn btn-small">Ver más</a>
+          </div>
+        </article>
+
+                        <article class="modelo-card" data-serie="agera" id="agera rs">
+          <img src="img/Koenigsegg-Agera-RS-guysgab-1-Cropped.jpg_q=50&fit=crop&w=825&dpr=1.webp" alt="Koenigsegg Agera RS" loading="lazy">
+          <div class="modelo-info">
+            <h3>Agera RS</h3>
+            <p class="modelo-anio">2015</p>
+            <p class="modelo-desc"></p>
+            <dl class="ficha-tecnica">
+
+                            <dt>Motor</dt>       <dd><!-- --></dd>
+              <dt>Potencia</dt>    <dd><!-- --></dd>
+              <dt>Velocidad máx.</dt><dd><!-- --></dd>
+              <dt>0–100 km/h</dt>  <dd><!-- --></dd>
+              <dt>Producción</dt>  <dd><!-- --></dd>
+            </dl>
+           <a href="#detalle-agera-rs" class="btn btn-small">Ver más</a>
+          </div>
+        </article>
+
+          <article class="modelo-card" data-serie="regera" id="regera">
+          <img src="img/Koenigsegg-Regera-at-Ring-Knutstorp-1024x555.webp" alt="Koenigsegg Regera" loading="lazy">
+          <div class="modelo-info">
+            <h3>Regera</h3>
+            <p class="modelo-anio">2015</p>
+            <p class="modelo-desc"></p>
+            <dl class="ficha-tecnica">
+
+                            <dt>Motor</dt>       <dd><!-- --></dd>
+              <dt>Potencia</dt>    <dd><!-- --></dd>
+              <dt>Velocidad máx.</dt><dd><!-- --></dd>
+              <dt>0–100 km/h</dt>  <dd><!-- --></dd>
+              <dt>Producción</dt>  <dd><!-- --></dd>
+            </dl>
+            <a href="#detalle-regera" class="btn btn-small">Ver más</a>
+          </div>
+        </article>
+
+        <article class="modelo-card" data-serie="actual" id="jesko">
+          <img src="img/wp6852218.webp" loading="lazy">
+          <div class="modelo-info">
+            <h3>Jesko</h3>
+            <p class="modelo-anio">2019</p>
+            <p class="modelo-desc"></p>
+            <dl class="ficha-tecnica">
+
+                            <dt>Motor</dt>       <dd><!-- --></dd>
+              <dt>Potencia</dt>    <dd><!-- --></dd>
+              <dt>Velocidad máx.</dt><dd><!-- --></dd>
+              <dt>0–100 km/h</dt>  <dd><!-- --></dd>
+              <dt>Producción</dt>  <dd><!-- --></dd>
+            </dl>
+            <a href="#detalle-jesko" class="btn btn-small">Ver más</a>
+          </div>
+        </article>
+
+        <article class="modelo-card" data-serie="actual" id="gemera">
+          <img src="img/gemera_4.webp" loading="lazy">
+          <div class="modelo-info">
+            <h3>Gemera</h3>
+            <p class="modelo-anio">2020</p>
+            <p class="modelo-desc"></p>
+            <dl class="ficha-tecnica">
+
+                            <dt>Motor</dt>       <dd><!-- --></dd>
+              <dt>Potencia</dt>    <dd><!-- --></dd>
+              <dt>Velocidad máx.</dt><dd><!-- --></dd>
+              <dt>0–100 km/h</dt>  <dd><!-- --></dd>
+              <dt>Producción</dt>  <dd><!-- --></dd>
+            </dl>
+           <a href="#detalle-gemera" class="btn btn-small">Ver más</a>
+          </div>
+        </article>
+
+        <article class="modelo-card" data-serie="actual" id="cc850">
+          <img src="img/007-2024-koenigsegg-cc850-supercar-first-look.webp" loading="lazy">
+          <div class="modelo-info">
+            <h3>CC850</h3>
+            <p class="modelo-anio">2022</p>
+            <p class="modelo-desc"></p>
+            <dl class="ficha-tecnica">
+
+                            <dt>Motor</dt>       <dd><!-- --></dd>
+              <dt>Potencia</dt>    <dd><!-- --></dd>
+              <dt>Velocidad máx.</dt><dd><!-- --></dd>
+              <dt>0–100 km/h</dt>  <dd><!-- --></dd>
+              <dt>Producción</dt>  <dd><!-- --></dd>
+            </dl>
+            <a href="#detalle-cc850" class="btn btn-small">Ver más</a>
+          </div>
+        </article>
+
+       <article class="modelo-card" data-serie="actual" id="ccgt1">
+          <img src="img/koenigsegg-ccgt1-n-a-11.webp" loading="lazy">
+          <div class="modelo-info">
+            <h3>CCGT1</h3>
+            <p class="modelo-anio">2026</p>
+            <p class="modelo-desc"></p>
+            <dl class="ficha-tecnica">
+
+                            <dt>Motor</dt>       <dd><!-- --></dd>
+              <dt>Potencia</dt>    <dd><!-- --></dd>
+              <dt>Velocidad máx.</dt><dd><!-- --></dd>
+              <dt>0–100 km/h</dt>  <dd><!-- --></dd>
+              <dt>Producción</dt>  <dd><!-- --></dd>
+            </dl>
+           <a href="#detalle-ccgt1" class="btn btn-small">Ver más</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===================== LÍNEA DE TIEMPO ===================== -->
+    <section id="linea-tiempo" class="section">
+      <h2>Línea de tiempo</h2>
+
+      <ol class="timeline">
+        <li class="timeline-item">
+          <time datetime="1994">1994</time>
+          <h3>Fundación</h3>
+          <p></p>
+        </li>
+        <li class="timeline-item">
+          <time datetime="2002">2002</time>
+          <h3>CC8S</h3>
+          <p></p>
+        </li>
+        <li class="timeline-item">
+          <time datetime="2010">2010</time>
+          <h3>Agera</h3>
+          <p></p>
+        </li>
+        
+          <li class="timeline-item">
+          <time datetime="2015">2015</time>
+          <h3>Regera</h3>
+          <p></p>
+        </li>
+
+         <li class="timeline-item">
+          <time datetime="2019">2019</time>
+          <h3>Jesko</h3>
+          <p></p>
+        </li>\
+          <li class="timeline-item">
+          <time datetime="2020">2020</time>
+          <h3>Gemera</h3>
+          <p></p>
+        </li>
+
+          <li class="timeline-item">
+          <time datetime="2022">2022</time>
+          <h3>CC850</h3>
+          <p></p>
+        </li>
+
+           <li class="timeline-item">
+          <time datetime="2026">2026</time>
+          <h3>CCGT1</h3>
+          <p></p>
+        </li>
+
+      </ol>
+    </section>
+
+    <!-- ===================== GALERÍA ===================== -->
+    <section id="galeria" class="section section-dark">
+      <h2>Galería</h2>
+
+      <div class="galeria-grid">
+        <figure><img src="img/Fabrica-koenigsegg-1-1130x534.webp" alt="Descripción foto 1" loading="lazy"></figure>
+        <figure><img src="img/Fabrica-koenigsegg-2.webp" alt="Descripción foto 2" loading="lazy"></figure>
+        <figure><img src="img/format,f_auto.webp" alt="Descripción foto 3" loading="lazy"></figure>
+        <figure><img src="img/k90a5935.webp" alt="Descripción foto 4" loading="lazy"></figure>
+      </div>
+    </section>
+
+
+    <section id="detalle-cc8s" class="section detalle-modelo">
+  <h2>Koenigsegg CC8S</h2>
+  <p>Primer modelo homologado de Koenigsegg y base de la reputación de la marca.</p>
+  <dl class="ficha-tecnica">
+    <dt>Motor</dt><dd>V8 4.7 L sobrealimentado</dd>
+    <dt>Potencia</dt><dd>655 hp</dd>
+    <dt>Velocidad máx.</dt><dd>390 km/h</dd>
+    <dt>0–100 km/h</dt><dd>Menos de 3.5 s</dd>
+    <dt>Producción</dt><dd>6 unidades</dd>
+  </dl>
+  <a href="#modelos" class="btn btn-small">← Volver a modelos</a>
+</section>
+
+
+<section id="detalle-ccr" class="section detalle-modelo">
+  <h2>Koenigsegg CCR</h2>
+  <p>Versión más potente del CC8S; batió el récord de velocidad para un auto de producción en 2005.</p>
+  <dl class="ficha-tecnica">
+    <dt>Motor</dt><dd>V8 4.7 L biturbo-sobrealimentado</dd>
+    <dt>Potencia</dt><dd>806 hp</dd>
+    <dt>Velocidad máx.</dt><dd>388 km/h</dd>
+    <dt>0–100 km/h</dt><dd>3.2 s</dd>
+    <dt>Producción</dt><dd>14 unidades</dd>
+  </dl>
+  <a href="#modelos" class="btn btn-small">← Volver a modelos</a>
+</section>
+
+
+<section id="detalle-ccx" class="section detalle-modelo">
+  <h2>Koenigsegg CCX</h2>
+  <p>Primer Koenigsegg adaptado para cumplir normativas estadounidenses y de emisiones.</p>
+  <dl class="ficha-tecnica">
+    <dt>Motor</dt><dd>V8 4.7 L biturbo-sobrealimentado</dd>
+    <dt>Potencia</dt><dd>806 hp</dd>
+    <dt>Velocidad máx.</dt><dd>Más de 395 km/h</dd>
+    <dt>0–100 km/h</dt><dd>3.2 s</dd>
+    <dt>Producción</dt><dd>29 unidades</dd>
+  </dl>
+  <a href="#modelos" class="btn btn-small">← Volver a modelos</a>
+</section>
+
+
+<section id="detalle-agera" class="section detalle-modelo">
+  <h2>Koenigsegg Agera</h2>
+  <p>Sucesor de la serie CC, con chasis más rígido, mejor aerodinámica y mayor potencia.</p>
+  <dl class="ficha-tecnica">
+    <dt>Motor</dt><dd>V8 5.0 L biturbo</dd>
+    <dt>Potencia</dt><dd>910 hp</dd>
+    <dt>Velocidad máx.</dt><dd>Aproximadamente 400 km/h</dd>
+    <dt>0–100 km/h</dt><dd>2.9 s</dd>
+    <dt>Producción</dt><dd>Serie limitada</dd>
+  </dl>
+  <a href="#modelos" class="btn btn-small">← Volver a modelos</a>
+</section>
+
+
+<section id="detalle-one1" class="section detalle-modelo">
+  <h2>Koenigsegg One:1</h2>
+  <p>Primer auto de producción con relación potencia-peso de 1 hp por kilogramo.</p>
+  <dl class="ficha-tecnica">
+    <dt>Motor</dt><dd>V8 5.0 L biturbo</dd>
+    <dt>Potencia</dt><dd>1,360 hp</dd>
+    <dt>Velocidad máx.</dt><dd>Aproximadamente 440 km/h</dd>
+    <dt>0–100 km/h</dt><dd>2.8 s</dd>
+    <dt>Producción</dt><dd>7 unidades</dd>
+  </dl>
+  <a href="#modelos" class="btn btn-small">← Volver a modelos</a>
+</section>
+
+
+<section id="detalle-agera-rs" class="section detalle-modelo">
+  <h2>Koenigsegg Agera RS</h2>
+  <p>Estableció el récord de velocidad para un auto de producción homologado en vía pública: 446.97 km/h en 2017. [5]</p>
+  <dl class="ficha-tecnica">
+    <dt>Motor</dt><dd>V8 5.0 L biturbo</dd>
+    <dt>Potencia</dt><dd>1,150 hp; 1,360 hp con paquete MW</dd>
+    <dt>Velocidad máx.</dt><dd>446.97 km/h, récord registrado</dd>
+    <dt>0–100 km/h</dt><dd>2.8 s</dd>
+    <dt>Producción</dt><dd>25 unidades, 2015–2018</dd>
+  </dl>
+  <a href="#modelos" class="btn btn-small">← Volver a modelos</a>
+</section>
+
+
+<section id="detalle-regera" class="section detalle-modelo">
+  <h2>Koenigsegg Regera</h2>
+  <p>Híbrido enchufable de alto rendimiento, sin caja de cambios convencional.</p>
+  <dl class="ficha-tecnica">
+    <dt>Motor</dt><dd>V8 5.0 L biturbo + 3 motores eléctricos</dd>
+    <dt>Potencia</dt><dd>Aproximadamente 1,500 hp combinados</dd>
+    <dt>Velocidad máx.</dt><dd>Más de 400 km/h</dd>
+    <dt>0–100 km/h</dt><dd>2.8 s</dd>
+    <dt>Producción</dt><dd>80 unidades</dd>
+  </dl>
+  <a href="#modelos" class="btn btn-small">← Volver a modelos</a>
+</section>
+
+
+<section id="detalle-jesko" class="section detalle-modelo">
+  <h2>Koenigsegg Jesko</h2>
+  <p>Modelo actual de altísimo rendimiento, diseñado para velocidades extremas y uso en circuito.</p>
+  <dl class="ficha-tecnica">
+    <dt>Motor</dt><dd>V8 5.0 L biturbo</dd>
+    <dt>Potencia</dt><dd>Hasta 1,600 hp con E85</dd>
+    <dt>Velocidad máx.</dt><dd>Objetivo superior a 480 km/h según versión</dd>
+    <dt>0–100 km/h</dt><dd>Menos de 2.5 s</dd>
+    <dt>Producción</dt><dd>125 unidades</dd>
+  </dl>
+  <a href="#modelos" class="btn btn-small">← Volver a modelos</a>
+</section>
+
+
+<section id="detalle-gemera" class="section detalle-modelo">
+  <h2>Koenigsegg Gemera</h2>
+  <p>Primer Mega-GT de Koenigsegg: cuatro plazas, híbrido y orientado al uso familiar de alto rendimiento.</p>
+  <dl class="ficha-tecnica">
+    <dt>Motor</dt><dd>V8 5.0 L biturbo + sistema híbrido, según versión</dd>
+    <dt>Potencia</dt><dd>Hasta 2,300 hp en la versión HV8</dd>
+    <dt>Velocidad máx.</dt><dd>Más de 400 km/h</dd>
+    <dt>0–100 km/h</dt><dd>Menos de 2 s según configuración</dd>
+    <dt>Producción</dt><dd>Producción limitada</dd>
+  </dl>
+  <a href="#modelos" class="btn btn-small">← Volver a modelos</a>
+</section>
+
+
+<section id="detalle-cc850" class="section detalle-modelo">
+  <h2>Koenigsegg CC850</h2>
+  <p>Homenaje al CC8S, con transmisión Engage Shifter System que combina manual y automático.</p>
+  <dl class="ficha-tecnica">
+    <dt>Motor</dt><dd>V8 5.0 L biturbo</dd>
+    <dt>Potencia</dt><dd>1,385 hp con E85</dd>
+    <dt>Velocidad máx.</dt><dd>Más de 400 km/h</dd>
+    <dt>0–100 km/h</dt><dd>Aproximadamente 2.7 s</dd>
+    <dt>Producción</dt><dd>70 unidades</dd>
+  </dl>
+  <a href="#modelos" class="btn btn-small">← Volver a modelos</a>
+</section>
+
+
+<section id="detalle-ccgt1" class="section detalle-modelo">
+  <h2>Koenigsegg CCGT1</h2>
+  <p>Versión de orientación deportiva basada en el CC850, con enfoque en circuito y producción limitada a 70 unidades. [1][4]</p>
+  <dl class="ficha-tecnica">
+    <dt>Motor</dt><dd>V8 5.0 L biturbo</dd>
+    <dt>Potencia</dt><dd>1,280 hp con gasolina; 1,600 hp con E85</dd>
+    <dt>Velocidad máx.</dt><dd>No confirmada oficialmente</dd>
+    <dt>0–100 km/h</dt><dd>No confirmado oficialmente</dd>
+    <dt>Producción</dt><dd>70 unidades</dd>
+  </dl>
+  <a href="#modelos" class="btn btn-small">← Volver a modelos</a>
+</section>
+
+
+
+    <section id="contacto" class="section">
+      <h2>Contacto</h2>
+
+      <form class="contact-form" action="#" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </section>
+
+
+
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <p>&copy; 2026 Proyecto académico — Pol.Plinio Martinez.</p>
+    <p>Autor: Marcos Wanner De Los Santos</p>
+    <a href="#inicio">Volver arriba ↑</a>
+  </footer>
+
+</body>
+</html>
